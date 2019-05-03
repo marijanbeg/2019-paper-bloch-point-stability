@@ -1,10 +1,10 @@
-FROM ubuntu:18.04
+FROM ubuntu:18.04g
 
 RUN apt-get update -y
 RUN apt-get install -y python3-pip
 
-COPY . /usr/local/joommfutil/
-WORKDIR /usr/local/joommfutil
+COPY . /usr/local/2019-paper-bloch-point-stability/
+WORKDIR /usr/local/2019-paper-bloch-point-stability
 RUN python3 -m pip install numpy matplotlib seaborn
 
 # Commands to make Binder work.
