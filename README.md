@@ -11,9 +11,7 @@ Marijan Beg<sup>1,2</sup>, Ryan A. Pepper<sup>2</sup>, David Cortes-Ortuno<sup>2
 
 ## About
 
-This repository contains simulation and data analysis scripts used to obtain results for:
-
-   [Beg, M. et al. Stable and manipulable Bloch point. arXiv 1808.10772 (2018)](https://arxiv.org/abs/1808.10772).
+This repository contains simulation and data analysis scripts used to obtain results for [Beg, M. et al. Stable and manipulable Bloch point. arXiv 1808.10772 (2018)](https://arxiv.org/abs/1808.10772).
 
 ## Micromagnetic simulations
 
