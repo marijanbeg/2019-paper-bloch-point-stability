@@ -13,7 +13,7 @@ Marijan Beg<sup>1,2</sup>, Ryan A. Pepper<sup>2</sup>, David Cortes-Ortuno<sup>2
 
 This repository contains simulation and data analysis scripts used to obtain results for:
 
-    Beg, M. et al. Stable and manipulable Bloch point. arXiv (2018).
+   [Beg, M. et al. Stable and manipulable Bloch point. arXiv 1808.10772 (2018)](https://arxiv.org/abs/1808.10772).
 
 ## Micromagnetic simulations
 
@@ -35,7 +35,7 @@ Licensed under the BSD 3-Clause "New" or "Revised" License. For details, please 
 
 ## How to cite
 
-1. M. Beg, R. A. Pepper, and H. Fangohr. User interfaces for computational science: A domain specific language for OOMMF embedded in Python. [AIP Advances, 7, 56025](http://aip.scitation.org/doi/10.1063/1.4977225) (2017).
+1. Beg, M. et al. Stable and manipulable Bloch point. arXiv 1808.10772 (2018).
 
 2. DOI for this repository will be available soon
 
