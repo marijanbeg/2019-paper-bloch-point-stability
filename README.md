@@ -15,17 +15,17 @@ This repository contains simulation and data analysis scripts used to obtain res
 
 ## Micromagnetic simulations
 
-Simulations scripts used to run micromagneyic simulations using [Finmag](https://github.com/fangohr/finmag) are in `src/` directory. In order to run them, please run
+Simulation scripts used to run micromagnetic simulations using [Finmag](https://github.com/fangohr/finmag) are in `src/` directory. In order to run them, please run
 
     make all
 
 Micromagnetic simulations will be run inside [Docker](https://www.docker.com/) container, which contains all the necessary software. Therefore, please make sure you have Docker installed on your machine. Installation instructions can be found [here](https://docs.docker.com/install/). Runtime is approximatelly 2 hours.
 
-If you would like only to reproduce the plots from the publication, there is no need to run micromagnetic simulations again, because all the `*.pkl` files required are already a part of this repository. However, VTK files of vector fields are not a part of it due to their size. Acordingly, if you would like to create them, please run micromagnetic simulations again (`make all`).
+If you would like only to reproduce the plots from the publication, there is no need to run micromagnetic simulations again, because all the `*.pkl` files required are already a part of this repository. However, VTK files of vector fields are not a part of it due to their size. Acordingly, if you would like to create them, please run micromagnetic simulations again (`make all`). For the visualisation and the analysis of VTK files, package like [Paraview](https://www.paraview.org/) can be used.
 
 ## Figures
 
-Scripts for creating Figures 2, 3, and 4 from the publication are in Jupyter notebooks which can be found in `figures/` directory. These notebooks can also be run in the cloud via [Binder](https://mybinder.org/v2/gh/marijanbeg/2019-paper-bloch-point-stability/master?filepath=index.ipynb). This does not require you to have anything installed and no files will be created on your machine.
+Scripts for creating plots in Figures 2, 3, and 4 from the publication are in Jupyter notebooks which can be found in `figures/` directory. These notebooks can also be run in the cloud via [Binder](https://mybinder.org/v2/gh/marijanbeg/2019-paper-bloch-point-stability/master?filepath=index.ipynb). This does not require you to have anything installed and no files will be created on your machine.
 
 ## License
 
