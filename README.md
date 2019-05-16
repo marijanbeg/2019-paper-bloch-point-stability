@@ -21,6 +21,8 @@ Simulation scripts used to run micromagnetic simulations using [Finmag](https://
 
 Micromagnetic simulations will be run inside [Docker](https://www.docker.com/) container, which contains all the necessary software. Therefore, please make sure you have Docker installed on your machine. Installation instructions can be found [here](https://docs.docker.com/install/). Runtime is approximatelly 2 hours.
 
+Docker image required to run micromagnetic simulations is `marijanbeg/bloch_point:finmag` and it publicly available in [Docker Cloud](https://cloud.docker.com/repository/docker/marijanbeg/bloch_point). If Docker is installed and `make all` is run, it will be pulled automatically. Alternatively, it can be obtained from the Zenodo record under DOI [10.5281/zenodo.2873744](https://zenodo.org/deposit/2873744). After downloading the Docker image file, before running `make all`, first run `make load-image`.
+
 If you would like only to reproduce the plots from the publication, there is no need to run micromagnetic simulations again, because all the `*.pkl` files required are already a part of this repository. However, VTK files of vector fields are not a part of it due to their size. Acordingly, if you would like to create them, please run micromagnetic simulations again (`make all`). For the visualisation and the analysis of VTK files, package like [Paraview](https://www.paraview.org/) can be used.
 
 ## Figures
