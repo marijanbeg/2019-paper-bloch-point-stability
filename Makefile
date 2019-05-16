@@ -9,5 +9,8 @@ hysteresis:
 creation:
 	docker run -ti -v $$(pwd):/io marijanbeg/bloch_point:finmag bash -c "cd src; python creation.py"
 
+load:
+	docker load < bloch_point.tar.gz
+
 clean:
 	rm -rf results/
