@@ -20,9 +20,8 @@ D = 1.58e-3  # DMI constant (J/m**2)
 # initial magnetisation configuration
 m_init = (0, 0, 1)
 
-# We vary the thickness of the top layer. Even though we vary the
-# thickness up to 20 nm, we choose to plot up to 18 nm.
-for ht in np.arange(2, 21, 1):
+# We vary the thickness of the top layer.
+for ht in np.arange(2, 19, 1):
     # Create mesh and simulation.
     mesh = hlp.disk_with_internal_boundary(d, hb, ht, lmax)
     sim = Sim(mesh, Ms, unit_length=1e-9)
@@ -59,10 +58,9 @@ for ht in np.arange(2, 21, 1):
 
     # Compute values of system properties.
     data = hlp.analyse(sim.llg.m_field.f)
-    pkl_filename = '{}/{}.pkl'.format(rdir, basename)
-    f = open(pkl_filename, "wb")
-    pickle.dump(data, f)
-    f.close()
+    txt_filename = '{}/{}.txt'.format(rdir, basename)
+    with open(txt_filename, 'w') as f:
+        f.write(str(data))
 
     # Delete simulation object.
     sim.shutdown()

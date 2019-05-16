@@ -86,12 +86,12 @@ def average(m, dx):
     unit_function = df.interpolate(df.Constant(1), S)
     volume = df.assemble(unit_function*dx)
 
-    # Compute average * volume
-    mx = df.assemble(m[0]*dx)
-    my = df.assemble(m[1]*dx)
-    mz = df.assemble(m[2]*dx)
+    # Compute average
+    mx = df.assemble(m[0]*dx)/volume
+    my = df.assemble(m[1]*dx)/volume
+    mz = df.assemble(m[2]*dx)/volume
 
-    return np.array([mx, my, mz])/volume
+    return [mx, my, mz]
 
 
 def analyse(m):
