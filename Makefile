@@ -1,12 +1,12 @@
-all: stability-sim hysteresis-sim creation-sim
+all: stability hysteresis creation
 
-stability-sim:
+stability:
 	docker run -ti -v $$(pwd):/io marijanbeg/bloch_point:finmag bash -c "cd src; python stability.py"
 
-hysteresis-sim:
+hysteresis:
 	docker run -ti -v $$(pwd):/io marijanbeg/bloch_point:finmag bash -c "cd src; python hysteresis.py"
 
-creation-sim:
+creation:
 	docker run -ti -v $$(pwd):/io marijanbeg/bloch_point:finmag bash -c "cd src; python creation.py"
 
 clean:
