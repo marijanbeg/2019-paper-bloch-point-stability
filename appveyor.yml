@@ -1,0 +1,20 @@
+environment:
+  matrix:
+    - PYTHON_VERSION: 3.7
+      MINICONDA: C:\Miniconda3-x64
+
+platform:
+  - x64
+
+build: off
+
+install:
+  - "set PATH=%MINICONDA%;%MINICONDA%\\Scripts;%PATH%"
+  - conda config --set always_yes yes --set changeps1 no
+  - conda update -q conda
+  - "conda create -q -n test-environment python=%PYTHON_VERSION%"
+  - activate test-environment
+  - python -m pip install --upgrade pip nbval numpy matplotlib seaborn
+
+test_script:
+  - python -m pytest --nbval figures\
