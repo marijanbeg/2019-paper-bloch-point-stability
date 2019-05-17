@@ -2,3 +2,5 @@
 *.vtu
 *.json
 *.h5
+*.pyc
+*.log
