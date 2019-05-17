@@ -6,6 +6,8 @@ Marijan Beg<sup>1,2</sup>, Ryan A. Pepper<sup>2</sup>, David Cortes-Ortuno<sup>2
 
 | Description | Badge |
 | --- | --- |
+| Build | [![Build Status](https://travis-ci.org/marijanbeg/2019-paper-bloch-point-stability.svg?branch=master)](https://travis-ci.org/marijanbeg/2019-paper-bloch-point-stability) |
+|       | [![Build status](https://ci.appveyor.com/api/projects/status/liuuyc7p7gyexs8m?svg=true)](https://ci.appveyor.com/project/marijanbeg/2019-paper-bloch-point-stability) |
 | Binder | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/marijanbeg/2019-paper-bloch-point-stability/master?filepath=index.ipynb) |
 | License | [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) |
 
