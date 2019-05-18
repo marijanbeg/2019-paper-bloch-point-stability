@@ -23,7 +23,7 @@ travis-build:
 	docker rm testcontainer
 
 load-image:
-	docker load < bloch_point.tar.gz
+	docker load < bloch_point.tar
 
 clean:
 	rm -rf results/
