@@ -45,7 +45,7 @@ Alternatively, if you decide to run notebooks on your machine, apart from Python
 
 1. M. Beg, *et al.* Stable and manipulable Bloch point. *arXiv* 1808.10772 (2018).
 
-2. DOI for this repository will be available soon
+2. M. Beg, *et al.* GitHub repository: Stable and manipulable Bloch point. (Version 1.0.0) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.2938933 (2019).
 
 ## License
 
