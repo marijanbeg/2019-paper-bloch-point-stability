@@ -6,6 +6,7 @@ Marijan Beg<sup>1,2</sup>, Ryan A. Pepper<sup>2</sup>, David Cortes-Ortuno<sup>2
 
 | Description | Badge |
 | --- | --- |
+| Paper | [![Paper](https://img.shields.io/badge/Scientific Reports-9:7959 (2019)-blue.svg)](https://arxiv.org/abs/1808.10772) |
 | Preprint | [![Preprint](https://img.shields.io/badge/arXiv-1808.10772-green.svg)](https://arxiv.org/abs/1808.10772) |
 | Binder | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/marijanbeg/2019-paper-bloch-point-stability/master?filepath=index.ipynb) |
 | DOI | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2938933.svg)](https://doi.org/10.5281/zenodo.2938933) |
@@ -17,7 +18,7 @@ Marijan Beg<sup>1,2</sup>, Ryan A. Pepper<sup>2</sup>, David Cortes-Ortuno<sup>2
 
 This repository contains simulation, data analysis, and plotting scripts used to obtain results reported in  
 
-[M. Beg *et al.* Stable and manipulable Bloch point. *arXiv* 1808.10772 (2018)](https://arxiv.org/abs/1808.10772).
+[M. Beg *et al.* Stable and manipulable Bloch point. *Scientific Reports* **9**, 7959 (2019)](https://www.nature.com/articles/s41598-019-44462-2).
 
 ## Micromagnetic simulations
 
@@ -43,7 +44,7 @@ Alternatively, if you decide to run notebooks on your machine, apart from Python
 
 ## How to cite
 
-1. M. Beg, *et al.* Stable and manipulable Bloch point. *arXiv* 1808.10772 (2018).
+1. [M. Beg *et al.* Stable and manipulable Bloch point. *Scientific Reports* **9**, 7959 (2019)](https://www.nature.com/articles/s41598-019-44462-2).
 
 2. M. Beg, *et al.* GitHub repository: Stable and manipulable Bloch point. (Version 1.0.0) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.2938933 (2019).
 
