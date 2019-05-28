@@ -18,7 +18,7 @@ Marijan Beg<sup>1,2</sup>, Ryan A. Pepper<sup>2</sup>, David Cortes-Ortuno<sup>2
 
 This repository contains simulation, data analysis, and plotting scripts used to obtain results reported in  
 
-[M. Beg *et al.* Stable and manipulable Bloch point. *Scientific Reports* **9**, 7959 (2019)](https://www.nature.com/articles/s41598-019-44462-2).
+M. Beg *et al.* Stable and manipulable Bloch point. [*Scientific Reports* **9**, 7959 (2019)](https://www.nature.com/articles/s41598-019-44462-2).
 
 ## Micromagnetic simulations
 
@@ -44,7 +44,7 @@ Alternatively, if you decide to run notebooks on your machine, apart from Python
 
 ## How to cite
 
-1. [M. Beg *et al.* Stable and manipulable Bloch point. *Scientific Reports* **9**, 7959 (2019)](https://www.nature.com/articles/s41598-019-44462-2).
+1. M. Beg *et al.* Stable and manipulable Bloch point. [*Scientific Reports* **9**, 7959 (2019)](https://www.nature.com/articles/s41598-019-44462-2).
 
 2. M. Beg, *et al.* GitHub repository: Stable and manipulable Bloch point. (Version 1.0.0) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.2938933 (2019).
 
