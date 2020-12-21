@@ -21,7 +21,7 @@ This repository contains simulation, data analysis, and plotting scripts used to
 
 ## Micromagnetic simulations
 
-Simulation scripts used to run micromagnetic simulations using [Finmag](https://github.com/fangohr/finmag) are in `src/` directory. In order to run them all, please run
+Simulation scripts used to run micromagnetic simulations with [Finmag](https://github.com/fangohr/finmag) are in `src/` directory. In order to run them all, run
 
     $ make all
 
@@ -31,11 +31,11 @@ If you only want to reproduce the plots from the publication, there is no need t
 
 Micromagnetic simulations are run inside [Docker](https://www.docker.com/) container, which contains all necessary software. Therefore, please make sure you have Docker installed on your machine. Installation instructions can be found [here](https://docs.docker.com/install/). Runtime is approximatelly 2 hours.
 
-Docker image required to run micromagnetic simulations is `marijanbeg/bloch_point:finmag` and it publicly available in [Docker Cloud](https://cloud.docker.com/repository/docker/marijanbeg/bloch_point). If Docker is installed and `make all` is run, it will be pulled automatically. Alternatively, it can be obtained from the Zenodo record under DOI [10.5281/zenodo.2873744](https://zenodo.org/record/2873744). After downloading the Docker image file and before running `make all`, first run `make load-image`.
+Docker image required to run micromagnetic simulations is `marijanbeg/bloch_point:finmag` and it is publicly available on [DockerHub](https://cloud.docker.com/repository/docker/marijanbeg/bloch_point). If Docker is installed and `make all` is run, Docker image will be pulled automatically. Alternatively, it can be obtained from the Zenodo record under DOI [10.5281/zenodo.2873744](https://zenodo.org/record/2873744). After downloading Docker image file and before running `make all`, run `make load-image` first.
 
 ## Figures
 
-Scripts for creating plots in Figures 2, 3, and 4 from the publication are in Jupyter notebooks which can be found in `figures/` directory. These notebooks can also be run in the cloud via [Binder](https://mybinder.org/v2/gh/marijanbeg/2019-paper-bloch-point-stability/HEAD?urlpath=lab/tree/figures%2Findex.ipynb). This does not require you to have anything installed and no files will be created on your machine.
+Scripts for creating plots in Figures 2, 3, and 4 from the publication are in Jupyter notebooks which can be found in `figures/` directory. These notebooks can also be run in the cloud via [myBinder](https://mybinder.org/v2/gh/marijanbeg/2019-paper-bloch-point-stability/HEAD?urlpath=lab/tree/figures%2Findex.ipynb). This does not require you to have anything installed and no files will be created on your machine.
 
 ## License
 
