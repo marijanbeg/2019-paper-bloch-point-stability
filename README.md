@@ -6,13 +6,12 @@ Marijan Beg<sup>1,2</sup>, Ryan A. Pepper<sup>2</sup>, David Cortes-Ortuno<sup>2
 
 | Description | Badge |
 | --- | --- |
+| Tests | [![workflow](https://github.com/marijanbeg/2019-paper-bloch-point-stability/workflows/workflow/badge.svg)](https://github.com/marijanbeg/2019-paper-bloch-point-stability/actions) |
 | Paper | [![Paper](https://img.shields.io/badge/Scientific%20Reports-9%3A7959%20(2019)-blue.svg)](https://www.nature.com/articles/s41598-019-44462-2) |
 | Preprint | [![Preprint](https://img.shields.io/badge/arXiv-1808.10772-green.svg)](https://arxiv.org/abs/1808.10772) |
 | Binder | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/marijanbeg/2019-paper-bloch-point-stability/HEAD?urlpath=lab/tree/figures%2Findex.ipynb) |
-| DOI | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2938933.svg)](https://doi.org/10.5281/zenodo.2938933) |
-| Build | [![Build Status](https://travis-ci.org/marijanbeg/2019-paper-bloch-point-stability.svg?branch=master)](https://travis-ci.org/marijanbeg/2019-paper-bloch-point-stability) |
-|       | [![Build status](https://ci.appveyor.com/api/projects/status/liuuyc7p7gyexs8m?svg=true)](https://ci.appveyor.com/project/marijanbeg/2019-paper-bloch-point-stability) |
 | License | [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) |
+| DOI | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2938933.svg)](https://doi.org/10.5281/zenodo.2938933) |
 
 ## About
 
