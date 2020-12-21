@@ -6,7 +6,7 @@ on:
     - cron: '0 0 1 * *'  # run once-a-month
 
 jobs:
-  workflow:
+  docker-image:
     runs-on: ubuntu-latest
 
     steps:
@@ -15,3 +15,6 @@ jobs:
 
     - name: Pull docker image
       run: docker pull marijanbeg/bloch_point:finmag
+
+    - name: Run simple command
+      run: docker run -ti marijanbeg/bloch_point:finmag bash -c "python -c \"import finmag\""
