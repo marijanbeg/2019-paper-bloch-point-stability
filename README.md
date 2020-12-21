@@ -27,7 +27,7 @@ Simulation scripts used to run micromagnetic simulations with [Finmag](https://g
 
 If you only want to reproduce the plots from the publication, there is no need to run micromagnetic simulations again, because all required `*.txt` files are already in this repository. However, VTK and HDF5 files of vector fields are not due to their size. Therefore, if you would like to create them, please run micromagnetic simulations again (`make all`). For the visualisation and the analysis of VTK files, package like [Paraview](https://www.paraview.org/) can be used.
 
-### Docker
+**Docker**
 
 Micromagnetic simulations are run inside [Docker](https://www.docker.com/) container, which contains all necessary software. Therefore, please make sure you have Docker installed on your machine. Installation instructions can be found [here](https://docs.docker.com/install/). Runtime is approximatelly 2 hours.
 
