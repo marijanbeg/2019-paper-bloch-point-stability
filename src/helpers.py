@@ -6,7 +6,7 @@ import dolfin as df
 
 def disk_with_internal_boundary(d, hb, ht, lmax):
     # gmsh geometry script (obtained using gmsh)
-    geo_script = textwrap.dedent("""\
+    geo_script = textwrap.dedent('""\
     lmax = DefineNumber[ $lmax$, Name "Parameters/lmax" ];
     rad = DefineNumber[ $rad$, Name "Parameters/rad" ];
     hb = DefineNumber[ $hb$, Name "Parameters/hb" ];
@@ -105,11 +105,11 @@ def analyse(m):
 
     # Populate dictionary.
     data = dict()
-    data["average_total"] = average(m, dx('everywhere'))
-    data["average_bottom"] = average(m, dx(0))
-    data["average_top"] = average(m, dx(1))
-    data["S_total"] = s_number(m, dx('everywhere'))
-    data["S_bottom"] = s_number(m, dx(0))
-    data["S_top"] = s_number(m, dx(1))
+    data['average_total'] = average(m, dx('everywhere'))
+    data['average_bottom'] = average(m, dx(0))
+    data['average_top'] = average(m, dx(1))
+    data['S_total'] = s_number(m, dx('everywhere'))
+    data['S_bottom'] = s_number(m, dx(0))
+    data['S_top'] = s_number(m, dx(1))
 
     return data

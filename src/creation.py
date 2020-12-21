@@ -60,5 +60,5 @@ for t in t_array:
     # Compute values of system properties.
     data = hlp.analyse(sim.llg.m_field.f)
     txt_filename = '{}/t{}.txt'.format(rdir, int(np.round(t/1e-12)))
-    with open(txt_filename, "wb") as f:
+    with open(txt_filename, 'wb') as f:
         f.write(str(data))

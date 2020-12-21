@@ -69,5 +69,5 @@ for state, B in enumerate(B_array):
     # Compute values of system properties.
     data = hlp.analyse(sim.llg.m_field.f)
     txt_filename = '{}/state_{}.txt'.format(rdir, state)
-    with open(txt_filename, "w") as f:
+    with open(txt_filename, 'w') as f:
         f.write(str(data))
