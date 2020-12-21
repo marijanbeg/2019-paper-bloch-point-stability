@@ -6,7 +6,7 @@ import dolfin as df
 
 def disk_with_internal_boundary(d, hb, ht, lmax):
     # gmsh geometry script (obtained using gmsh)
-    geo_script = textwrap.dedent('""\
+    geo_script = textwrap.dedent("""\
     lmax = DefineNumber[ $lmax$, Name "Parameters/lmax" ];
     rad = DefineNumber[ $rad$, Name "Parameters/rad" ];
     hb = DefineNumber[ $hb$, Name "Parameters/hb" ];
