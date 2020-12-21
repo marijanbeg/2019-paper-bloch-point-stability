@@ -7,7 +7,7 @@ Marijan Beg<sup>1,2</sup>, Ryan A. Pepper<sup>2</sup>, David Cortes-Ortuno<sup>2
 | Description | Badge |
 | --- | --- |
 | Tests | [![workflow](https://github.com/marijanbeg/2019-paper-bloch-point-stability/workflows/workflow/badge.svg)](https://github.com/marijanbeg/2019-paper-bloch-point-stability/actions) |
-|       | []![docker-image](https://github.com/marijanbeg/2019-paper-bloch-point-stability/workflows/docker-image/badge.svg)](https://github.com/marijanbeg/2019-paper-bloch-point-stability/actions) |
+|       | [![docker-image](https://github.com/marijanbeg/2019-paper-bloch-point-stability/workflows/docker-image/badge.svg)](https://github.com/marijanbeg/2019-paper-bloch-point-stability/actions) |
 | Paper | [![Paper](https://img.shields.io/badge/Scientific%20Reports-9%3A7959%20(2019)-blue.svg)](https://www.nature.com/articles/s41598-019-44462-2) |
 | Preprint | [![Preprint](https://img.shields.io/badge/arXiv-1808.10772-green.svg)](https://arxiv.org/abs/1808.10772) |
 | Binder | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/marijanbeg/2019-paper-bloch-point-stability/HEAD?urlpath=lab/tree/figures%2Findex.ipynb) |
