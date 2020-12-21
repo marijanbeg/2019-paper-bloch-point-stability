@@ -17,4 +17,4 @@ jobs:
       run: docker pull marijanbeg/bloch_point:finmag
 
     - name: Run simple command
-      run: docker run -ti marijanbeg/bloch_point:finmag bash -c "python -c \"import finmag\""
+      run: docker run marijanbeg/bloch_point:finmag bash -c "python -c \"import finmag\""
