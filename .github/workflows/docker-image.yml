@@ -17,4 +17,4 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Pull docker image and run simple command
-      run: docker run -ti -v $$(pwd):/io marijanbeg/bloch_point:finmag bash -c "cd src; python -c "import finmag""
+      run: docker run -ti -v $$(pwd):/io marijanbeg/bloch_point:finmag bash -c "cd src; python -c \"import finmag\""
