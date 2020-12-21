@@ -10,9 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Initialisation
-      uses: actions/checkout@v2
-
     - name: Pull docker image
       run: docker pull marijanbeg/bloch_point:finmag
 
