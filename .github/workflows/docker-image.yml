@@ -1,0 +1,20 @@
+name: docker-image
+
+on:
+  push:
+  schedule:
+    - cron: '0 0 1 * *'  # run once-a-month
+
+jobs:
+  workflow:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+
+    steps:
+    - name: Initialisation
+      uses: actions/checkout@v2
+
+    - name: Pull docker image and run simple command
+      run: docker run -ti -v $$(pwd):/io marijanbeg/bloch_point:finmag bash -c "cd src; python -c "import finmag""
