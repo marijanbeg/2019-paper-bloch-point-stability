@@ -31,7 +31,7 @@ If you only want to reproduce the plots from the publication, there is no need t
 
 Micromagnetic simulations are run inside [Docker](https://www.docker.com/) container, which contains all necessary software. Therefore, please make sure you have Docker installed on your machine. Installation instructions can be found [here](https://docs.docker.com/install/). Runtime is approximatelly 2 hours.
 
-Docker image required to run micromagnetic simulations is `marijanbeg/bloch_point:finmag` and it publicly available in [Docker Cloud](https://cloud.docker.com/repository/docker/marijanbeg/bloch_point). If Docker is installed and `make all` is run, it will be pulled automatically. Alternatively, it can be obtained from the Zenodo record under [10.5281/zenodo.2873744](https://zenodo.org/deposit/2873744) DOI. After downloading the Docker image file and before running `make all`, first run `make load-image`.
+Docker image required to run micromagnetic simulations is `marijanbeg/bloch_point:finmag` and it publicly available in [Docker Cloud](https://cloud.docker.com/repository/docker/marijanbeg/bloch_point). If Docker is installed and `make all` is run, it will be pulled automatically. Alternatively, it can be obtained from the Zenodo record under DOI [10.5281/zenodo.2873744](https://zenodo.org/record/2873744). After downloading the Docker image file and before running `make all`, first run `make load-image`.
 
 ## Figures
 
