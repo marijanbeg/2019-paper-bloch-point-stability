@@ -52,4 +52,4 @@ Licensed under the BSD 3-Clause "New" or "Revised" License. For details, please 
 
 - EPSRC Programme Grant on [Skyrmionics](http://www.skyrmions.ac.uk) (EP/N032128/1)
 
-- EPSRC Centre for Doctoral Training grant [EP/L015382/1](http://www.ngcm.soton.ac.uk/)
+- EPSRC [Centre for Doctoral Training](http://www.ngcm.soton.ac.uk/) grant (EP/L015382/1)
