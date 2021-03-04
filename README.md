@@ -26,7 +26,7 @@ Simulation scripts for running micromagnetic simulations using [Finmag](https://
 
     $ make all
 
-If you only want to reproduce the plots from the publication, there is no need to run micromagnetic simulations again, because all required `*.txt` files containing data are already in this repository. However, VTK and HDF5 files of vector fields are not in the repository due to their size. Therefore, if you would like to create them, you need to run micromagnetic simulations again (`make all`). For the visualisation and the analysis of VTK files, package like [Paraview](https://www.paraview.org/) can be used.
+If you only want to reproduce plots from the publication, there is no need to run micromagnetic simulations again, because all required `*.txt` files containing data are already in this repository. However, VTK and HDF5 files of vector fields are not in the repository due to their size. Therefore, if you would like to create them, you need to run micromagnetic simulations again (`make all`). For the visualisation and the analysis of VTK files, package like [Paraview](https://www.paraview.org/) can be used.
 
 **Docker**
 
